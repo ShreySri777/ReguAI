@@ -53,145 +53,148 @@ Score & Risk Assessment
 ```
 ---
 
-###AI Model
+### AI Model
 
-sentence-transformers/all-MiniLM-L6-v2
-Hugging Face Transformers
-PyTorch
-384-dimensional embeddings
-Local inference
-No paid AI API required
-
----
-
-###🏗️ Modules
-###📄 Document Module
-Upload documents
-Extract document text
-Store document information
-Analyze compliance documents
-Track document workflow
-
-###🏛️ Framework Module
-Create compliance frameworks
-Activate/deactivate frameworks
-Associate requirements with frameworks
-Perform framework-specific compliance checks
-
-###📋 Requirement Module
-Create requirements
-Edit requirements
-Delete requirements
-Categorize requirements
-Assign severity levels
-Framework-specific requirements
-
-###🤖 Compliance Module
-Analyze documents against requirements
-Retrieve relevant evidence
-Classify requirements as:
-Matched
-Review
-Missing
-Calculate compliance scores
-Identify compliance gaps
-
-###⚠️ Risk Module
-Requirement-level risk calculation
-Severity-based risk assessment
-Compliance status-based risk calculation
-Risk levels:
-Minimal
-Low
-Medium
-High
-Critical
-Persistent risk history
-
-###📑 Audit Report Module
-Generate audit reports
-View previous reports
-Include compliance results
-Include compliance gaps
-Include risk information
-Download reports as PDF
+- `sentence-transformers/all-MiniLM-L6-v2`
+- Hugging Face Transformers
+- PyTorch
+- 384-dimensional embeddings
+- Local inference
+- No paid AI API required
 
 ---
 
-###🛠️ Technologies Used
-🐍 Python
-⚡ FastAPI
-⚛️ React
-🚀 Vite
-🗄️ SQLite
-🔗 SQLAlchemy
-🤗 Hugging Face Transformers
-🔥 PyTorch
-📄 PyMuPDF
-📑 ReportLab
-📦 Pydantic
-🔧 Git & GitHub
+## 🏗️ Modules
+
+### 📄 Document Module
+
+- Upload documents
+- Extract document text
+- Store document information
+- Analyze compliance documents
+- Track document workflow
+
+### 🏛️ Framework Module
+
+- Create compliance frameworks
+- Activate/deactivate frameworks
+- Associate requirements with frameworks
+- Perform framework-specific compliance checks
+
+### 📋 Requirement Module
+
+- Create requirements
+- Edit requirements
+- Delete requirements
+- Categorize requirements
+- Assign severity levels
+- Framework-specific requirements
+
+### 🤖 Compliance Module
+
+- Analyze documents against requirements
+- Retrieve relevant evidence
+- Classify requirements as:
+  - Matched
+  - Review
+  - Missing
+- Calculate compliance scores
+- Identify compliance gaps
+
+### ⚠️ Risk Module
+
+- Requirement-level risk calculation
+- Severity-based risk assessment
+- Compliance status-based risk calculation
+- Risk levels:
+  - Minimal
+  - Low
+  - Medium
+  - High
+  - Critical
+- Persistent risk history
+
+### 📑 Audit Report Module
+
+- Generate audit reports
+- View previous reports
+- Include compliance results
+- Include compliance gaps
+- Include risk information
+- Download reports as PDF
 
 ---
 
-###⚙️ Installation & Setup
-1. Clone Repository
+## 🛠️ Technologies Used
+
+- 🐍 Python
+- ⚡ FastAPI
+- ⚛️ React
+- 🚀 Vite
+- 🗄️ SQLite
+- 🔗 SQLAlchemy
+- 🤗 Hugging Face Transformers
+- 🔥 PyTorch
+- 📄 PyMuPDF
+- 📑 ReportLab
+- 📦 Pydantic
+- 🔧 Git & GitHub
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone Repository
+
+```bash
 git clone https://github.com/ShreySri777/ReguAI.git
 cd ReguAI
+```
+### 2. Backend Setup
 
-2. Backend Setup
+Navigate to the backend:
+
+```powershell
 cd backend
+```
+Create the Python virtual environment:
+```powershell
 py -3.13 -m venv .venv313
+```
+Activate the virtual environment:
+```powershell
 .venv313\Scripts\activate
+```
+Install backend dependencies:
+```powershell
 python -m pip install -r requirements.txt
-
+```
 Start the backend:
+```powershell
 python -m uvicorn app.main:app
+```
+**Backend:**
 
-Backend:
 http://127.0.0.1:8000
 
-API Documentation:
+**API Documentation:**
+
 http://127.0.0.1:8000/docs
 
-3. Frontend Setup
-Open another terminal:
+**3. Frontend Setup**
+
+Open another terminal and navigate to the frontend:
+```powershell
 cd frontend
-npm install
-npm run dev
-
-Frontend:
-http://localhost:5173
-
----
-##Application Workflow
-```text
-Upload Document
-       ↓
-Extract Text
-       ↓
-Select Compliance Framework
-       ↓
-Run AI Compliance Check
-       ↓
-Retrieve Evidence
-       ↓
-Evaluate Requirements
-       ↓
-Calculate Compliance Score
-       ↓
-Assess Risk
-       ↓
-View Compliance Gaps
-       ↓
-Generate Audit Report
-       ↓
-Download PDF
 ```
+Install frontend dependencies:
+```powershell
+npm install
+```
+Start the frontend:
+```powershell
+npm run dev
+```
+**Frontend:**
 
-###👨‍💻 Author
-
-Shrey Srivastava
-
-GitHub:
-https://github.com/ShreySri777
+http://localhost:5173
