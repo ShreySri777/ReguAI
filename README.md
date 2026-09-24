@@ -198,3 +198,21 @@ npm run dev
 **Frontend:**
 
 http://localhost:5173
+---
+## 🔗 GitHub Repository
+
+https://github.com/ShreySri777/ReguAI
+
+---
+
+## 👨‍💻 Author
+
+### Shrey Srivastava
+
+**GitHub:**
+
+https://github.com/ShreySri777
+
+---
+
+⭐ If you found this project interesting, consider giving the repository a star!
