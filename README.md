@@ -53,7 +53,8 @@ Score & Risk Assessment
 ```
 ---
 
-##AI Model
+###AI Model
+
 sentence-transformers/all-MiniLM-L6-v2
 Hugging Face Transformers
 PyTorch
@@ -63,26 +64,29 @@ No paid AI API required
 
 ---
 
-##🏗️ Modules
-##📄 Document Module
+###🏗️ Modules
+###📄 Document Module
 Upload documents
 Extract document text
 Store document information
 Analyze compliance documents
 Track document workflow
-##🏛️ Framework Module
+
+###🏛️ Framework Module
 Create compliance frameworks
 Activate/deactivate frameworks
 Associate requirements with frameworks
 Perform framework-specific compliance checks
-##📋 Requirement Module
+
+###📋 Requirement Module
 Create requirements
 Edit requirements
 Delete requirements
 Categorize requirements
 Assign severity levels
 Framework-specific requirements
-##🤖 Compliance Module
+
+###🤖 Compliance Module
 Analyze documents against requirements
 Retrieve relevant evidence
 Classify requirements as:
@@ -91,7 +95,8 @@ Review
 Missing
 Calculate compliance scores
 Identify compliance gaps
-##⚠️ Risk Module
+
+###⚠️ Risk Module
 Requirement-level risk calculation
 Severity-based risk assessment
 Compliance status-based risk calculation
@@ -102,7 +107,8 @@ Medium
 High
 Critical
 Persistent risk history
-##📑 Audit Report Module
+
+###📑 Audit Report Module
 Generate audit reports
 View previous reports
 Include compliance results
@@ -112,7 +118,7 @@ Download reports as PDF
 
 ---
 
-##🛠️ Technologies Used
+###🛠️ Technologies Used
 🐍 Python
 ⚡ FastAPI
 ⚛️ React
@@ -128,7 +134,7 @@ Download reports as PDF
 
 ---
 
-##⚙️ Installation & Setup
+###⚙️ Installation & Setup
 1. Clone Repository
 git clone https://github.com/ShreySri777/ReguAI.git
 cd ReguAI
@@ -159,7 +165,7 @@ http://localhost:5173
 
 ---
 ##Application Workflow
-
+```text
 Upload Document
        ↓
 Extract Text
@@ -181,8 +187,9 @@ View Compliance Gaps
 Generate Audit Report
        ↓
 Download PDF
+```
 
-##👨‍💻 Author
+###👨‍💻 Author
 
 Shrey Srivastava
 
